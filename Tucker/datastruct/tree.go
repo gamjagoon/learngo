@@ -50,3 +50,20 @@ func (t *Tree) Dfs2() {
 		}
 	}
 }
+
+//Bfs : by queue
+func (t *Tree) Bfs() {
+	//make queue
+	queue := []*TreeNode{}
+	//push root node
+	queue = append(queue, t.Root)
+	//Breadth-first-search
+	for len(queue) > 0 {
+		var first *TreeNode
+		first, queue = queue[0], queue[1:]
+		fmt.Printf("%d -> ", first.Val)
+		for _, i := range first.Childs {
+			queue = append(queue, i)
+		}
+	}
+}

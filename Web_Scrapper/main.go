@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gamjagoon/learngo/scrapper"
+	"github.com/gamjagoon/learngo/Web_Scrapper/scrapper"
 	"github.com/labstack/echo"
 )
 

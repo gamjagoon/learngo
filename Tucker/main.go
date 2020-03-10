@@ -2,29 +2,23 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 
-	"github.com/gamjagoon/Tucker/datastruct"
+	"github.com/gamjagoon/learngo/Tucker/datastruct"
 )
 
 func main() {
-	tree := datastruct.Tree{}
 
-	val := 1
-	tree.AddNode(val)
-	val++
-
-	for i := 0; i < 3; i++ {
-		tree.Root.AddNode(val)
-		val++
+	tree := datastruct.NewBinaryTree(50)
+	for i := 0; i < 100; i++ {
+		tree.Root.AddNode(rand.Intn(100))
 	}
-	for i := 0; i < len(tree.Root.Childs); i++ {
-		for j := 0; j < 2; j++ {
-			tree.Root.Childs[i].AddNode(val)
-			val++
-		}
-	}
-
-	tree.Dfs1(tree.Root)
+	tree.Print()
 	fmt.Println()
-	tree.Dfs2()
+	findnum := rand.Intn(100)
+	if found, cnt := tree.Search(findnum); found {
+		fmt.Println("found ", findnum, "cnt : ", cnt)
+	} else {
+		fmt.Println("not found ", findnum, "cnt : ", cnt)
+	}
 }
