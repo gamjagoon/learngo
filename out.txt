@@ -1,0 +1,31 @@
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.1.14
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:1323
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=150
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=200
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=950
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=700
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=0
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=350
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=850
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=450
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=600
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=50
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=800
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=650
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=900
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=400
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=100
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=250
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=550
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=300
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=500
+Requsting https://kr.indeed.com/jobs?q=c++&limit=50&start=750
+Extrant len of jobs
