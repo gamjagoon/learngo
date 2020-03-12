@@ -2,10 +2,12 @@ package datastruct
 
 import "fmt"
 
+// Heap :
 type Heap struct {
 	list []int
 }
 
+// Push : Push value int Heap
 func (h *Heap) Push(v int) {
 	h.list = append(h.list, v)
 	idx := len(h.list) - 1
@@ -23,10 +25,12 @@ func (h *Heap) Push(v int) {
 	}
 }
 
+// Print : Print heap
 func (h *Heap) Print() {
 	fmt.Println(h.list)
 }
 
+// Pop : pop int
 func (h *Heap) Pop() int {
 	if len(h.list) == 0 {
 		return 0
