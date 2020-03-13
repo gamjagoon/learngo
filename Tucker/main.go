@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	go func1()
 	for i := 0; i < 20; i++ {
 		time.Sleep(100 * time.Millisecond)
+		go func1()
 		fmt.Println("main", i)
 	}
 }
