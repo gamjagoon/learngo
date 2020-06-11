@@ -62,7 +62,7 @@ func main() {
 
   mux.Get("/users", getUserInfoHandler)
   mux.Post("/users",addUserHandler)
-  mux.Get("/hello", helloHandler)
+  mux.Get("/", helloHandler)
 
-  http.ListenAndServe(":8080", mux)
+  http.ListenAndServe("192.168.123.123:3000", mux)
 }
